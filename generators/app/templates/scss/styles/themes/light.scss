@@ -1,0 +1,41 @@
+/**********************************************************/
+/*********************** Colors ***************************/
+/**********************************************************/
+
+// Background colors
+$color-section-background: #FFFFFF;
+$color-element-background: #F6F6F6;
+$color-element-hover-background: #EBEBEB;
+$color-label-background: #AAAAAA;
+
+// Typography colors
+$color-element-text: #090A1D;
+$color-plain-text: #090A1D;
+$color-title-text: #090A1D;
+$color-navigation-text: #090A1D;
+$color-label-text: #090A1D;
+
+// Element decoration colors
+$color-underline: #00B3BE;
+$color-element-border: #F6F6F6;
+$color-title-text-highliter: #6E3ED2;
+
+.light {
+  // Background colors
+  --color-section-background: #{$color-section-background};
+  --color-element-background: #{$color-element-background};
+  --color-element-hover-background: #{$color-element-hover-background};
+  --color-label-background: #{$color-label-background};
+
+  // Typography colors
+  --color-element-text: #{$color-element-text};
+  --color-plain-text: #{$color-plain-text};
+  --color-title-text: #{$color-title-text};
+  --color-navigation-text: #{$color-navigation-text};
+  --color-label-text: #{$color-label-text};
+
+  // Element decoration colors
+  --color-underline: #{$color-underline};
+  --color-element-border: #{$color-element-border};
+  --color-title-text-highliter: #{$color-title-text-highliter};
+}

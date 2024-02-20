@@ -1,0 +1,48 @@
+@import 'styles/variables';
+
+/**********************************************************/
+/********************** Typography ************************/
+/**********************************************************/
+
+// TODO: fix import issue and remove redundant imports
+@mixin basicFont {
+  margin: 0;
+
+  font-weight: 500;
+  font-size: var(--font-size);
+  font-family: $font-text;
+  font-style: normal;
+}
+
+/**********************************************************/
+/***************** Elements Decoration ********************/
+/**********************************************************/
+
+@mixin roundedCorners {
+  border-radius: var(--border-radius);
+}
+
+/**********************************************************/
+/******************** Media Queries ***********************/
+/**********************************************************/
+
+// Small devices
+@mixin mobile {
+  @media ( min-width: #{$screen-mobile-width} ) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin tablet {
+  @media ( min-width: #{$screen-tablet-width} ) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin desktop {
+  @media ( min-width: #{$screen-desktop-width} ) {
+    @content;
+  }
+}
